@@ -1,7 +1,7 @@
 import os
 from celery import Celery
 
-REDIS_HOST='localhost'
+REDIS_HOST='185.17.141.230'
 REDIS_PORT=6379
 
 app = Celery("tasks")
